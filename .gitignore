@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
+.venv/
+.env/
+
+# Docker files
+# Ignore Docker-related files (except the Docker Compose file itself)
+docker-compose.override.yml
+docker-compose.yml.override
+docker-compose.override.yaml
+docker-compose.yaml.override
+
+# MongoDB data and logs
+mongo_data/
+data/
+
+# Logs
+*.log
+
+# Cache
+*.cache
+*.lock
+*.gz
+
+# FastAPI-related files
+*.db
+instance/
+
+# Python egg files
+*.egg-info/
+.eggs/
+
+# pyenv
+.python-version
+
+# VS Code specific
+.vscode/
+
+# Jupyter Notebook checkpoints (optional, in case you use Jupyter)
+.ipynb_checkpoints/
+
+# Environment-specific files
+.mypy_cache/
+.pytest_cache/
